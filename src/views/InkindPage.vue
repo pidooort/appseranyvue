@@ -70,6 +70,7 @@
               </div>
               <div class="form-group text-center">
                 <ion-button type="submit" class="btn btn-primary" shape="round" expand="full" value="Submit">Submit</ion-button>
+                
               </div>
             </form>
           </div>
