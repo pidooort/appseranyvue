@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SeranyApp</string>
+    <string name="title_activity_main">SeranyApp</string>
+    <string name="package_name">com.serany.seranyapp</string>
+    <string name="custom_url_scheme">com.serany.seranyapp</string>
+</resources>

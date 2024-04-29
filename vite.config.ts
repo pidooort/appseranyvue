@@ -14,8 +14,13 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  test: {
-    globals: true,
-    environment: 'jsdom'
-  }
+  server: {
+    proxy: {
+      '/news_post_api.php': {
+        target: 'https://seranycare.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/news_post_api\.php/, ''),
+      },
+    },
+  },
 })
